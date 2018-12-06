@@ -3,13 +3,13 @@ DEBUG = -g
 CFLAGS = -Wall -std=gnu++11 $(DEBUG)
 LFLAGS = -Wall $(DEBUG)
 
-compile: lab12.out
+compile: dna.out
 
-lab12.out: lab12.cpp dna_alignment.h edit_distance.h util.h
-	$(CC) $(CFLAGS) -o lab12.out lab12.cpp
+dna.out: main.cpp dna_alignment.h edit_distance.h util.h
+	$(CC) $(CFLAGS) -o dna.out main.cpp
 
-run: lab12.out
-	./lab12.out
+run: dna.out
+	./dna.out
 
 clean:
 	rm *.out
