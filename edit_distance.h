@@ -1,10 +1,3 @@
-/*
- * Name: Andrew Padgett
- * Date Submitted: 12/06/18
- * Lab Section 04
- * Assignment Name: Lab 12
- */
-
 #pragma once
 
 #include "util.h"
