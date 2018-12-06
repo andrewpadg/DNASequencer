@@ -52,10 +52,10 @@ other species in the text file.
 The DNA sequencer uses Levenshtein Distance [(Wikipedia)](http://bit.ly/2AHHIvI) to find the distance between two DNA sequences.
 
 ### Mutation Costs
-Exact match - 0
-Substitution - 1
-Deletion - 2
-Insertion - 2
+* Exact match - 0
+* Substitution - 1
+* Deletion - 2
+* Insertion - 2
 
 Insertions and deletions cost more because unlike a substituion which affects a single amino acid, they shift the whole amino chain by 1 place.
 
