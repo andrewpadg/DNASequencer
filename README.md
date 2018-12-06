@@ -21,7 +21,7 @@ util.h
 ### Running the program
 
 #### 1.
-Input DNA sequences in dna-samples.txt in this format
+Input DNA sequences in dna-samples.txt in this format (case-insensitive, example in example.txt)
 
 ```
 --"species name"
