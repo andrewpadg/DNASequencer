@@ -47,7 +47,7 @@ vector<pair<string, string>> readFile() {
 
 	//if opening "dna-samples.txt" fails, try opening lab12.txt
 	if (file.fail())
-		file.open("lab12.txt");
+		file.open("examples.txt");
 
 	//until no more species names exist
 	while (getline(file, word)) {
